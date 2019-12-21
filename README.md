@@ -14,6 +14,11 @@ For each subject in the table below, the first link is a general introduction an
 | [Morphological Transducers: Lttoolbox](transducer_lt.md)<br>[Morphological Transducers: Lttoolbox (technical)](transducer_lt_tech.md) | Dealing with transducers created with Lttoolbox |
 | [Morphological Transducers: HFST](transducer_hfst.md)<br>[Morphological Transducers: HFST (technical)](transducer_hfst_tech.md) | Dealing with transducers created with HFST |
 | [Morphological Disambiguation](disambiguation.md)<br>[Morphological Disambiguation (technical)](disambiguation_tech.md) | Processing ambiguous forms of words |
-| [Multi-Word Expressions](separable.md)<br>[Multi-Word Expressions (technical)](separable_tech.md) | Using Apertium-separable to deal with expressions that should be treated as single words |
+| [Multi-Word Expressions](separable.md)<br>[Multi-Word Expressions (technical)](separable_tech.md) | Using apertium-separable to deal with expressions that should be treated as single words |
 | [Bilingual Dictionaries](biltrans.md)<br>[Bilingual Dictionaries (technical)](biltrans_tech.md) | |
-| [Lexical Selection](lexsel.md)<br>[Lexical Selection (technical)](lexsel_tech.md) | |
+| [Lexical Selection](lexsel.md)<br>[Lexical Selection (technical)](lexsel_tech.md) | Choosing the correct translations for words based on context |
+| [Anaphora Resolution](anaphora.md)<br>[Anaphora Resolution (technical)](anaphora_tech.md) | Determining what things like pronouns refer to |
+| [Structural Transfer: General](transfer.md) | Dealing with changes in word order and grammatical information |
+| [Structural Transfer: Chunking](chunk.md)<br>[Structural Transfer: Chunking (technical)](chunk_tech.md) | Structural transfer using finite-state chunking |
+| [Structural Transfer: Recursive](recursive.md)<br>[Structural Transfer: Recursive (technical)](recursive_tech.md) | Structural transfer using apertium-recursive |
+| [Post-Generation](postgen.md)<br>[Post-Generation (technical)](postgen_tech.md) | Dealing with inter-word orthographic changes |
