@@ -1,4 +1,4 @@
-# apertium-doc
+# How Does Do an Apertium
 An attempt at a unified Apertium tutorial
 
 # Table of Contents
