@@ -1,0 +1,30 @@
+digraph {
+  hfst [label="HFST binary file\n(.hfst)"];
+  bin [label="lttoolbox binary file\n(.bin)"];
+  hfstol [label="HFST optimized-lookup file\n(.hfstol)"];
+  att [label="AT&T text file\n(.att)"];
+  lexc [label="Lexc source file\n(.lexc)"];
+  lexd [label="Lexd source file\n(.lexd)"];
+  twol [label="Twol rule file\n(.twol)"];
+  twoc [label="Twoc rule file\n(.twoc)"];
+  dix [label="Monodix XML file\n(.dix)"];
+
+  subgraph cluster_read {
+    label="Human-readable";
+    att;
+    subgraph cluster_write {
+      label="Human-editable";
+      lexc; lexd; twol; twoc; dix;
+    }
+  }
+
+  lexd -> att [label="lexd in.lexd > out.att"];
+  lexc -> hfst [label="hfst-lexc in.lexc > out.hfst"];
+  twol -> hfst [label="hfst-twolc in.twol > out.hfst"];
+  twoc -> hfst [label="hfst-twolc in.twoc > out.hfst"];
+  att -> hfst [label="hfst-fst2txt in.hfst > out.att", dir=back];
+  att -> hfst [label="hfst-txt2fst in.att > out.hfst"];
+  dix -> bin [label="lt-comp lr in.dix > out.bin"];
+  att -> bin [label="lt-comp lr in.att > out.bin", dir=back];
+  hfst -> hfstol [label="hfst-fst2fst in.hfst -O > out.hfstol"];
+}
