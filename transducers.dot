@@ -26,7 +26,7 @@ digraph {
   att -> hfst [label="hfst-txt2fst in.att > out.hfst"];
   dix -> bin [label="lt-comp lr in.dix out.bin"];
   att -> bin [label="lt-comp lr in.att out.bin"];
-  att -> bin [label="lt-print in.bin > out.att"];
+  att -> bin [label="lt-print in.bin > out.att", dir=back];
   hfst -> hfstol [label="hfst-fst2fst in.hfst -O > out.hfstol"];
   bin -> hfst [label="lt-print -H in.bin | hfst-txt2fst > out.hfst"];
 }
