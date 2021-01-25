@@ -12,7 +12,7 @@
    viewBox="0 0 667.97052 389.4707"
    version="1.1"
    id="svg302"
-   sodipodi:docname="blah.svg"
+   sodipodi:docname="pipeline_box.svg"
    inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
    inkscape:export-filename="/home/jonathan/q/ap/apertium-doc/images/pipeline_box.png"
    inkscape:export-xdpi="200.04605"
@@ -25,7 +25,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -40,15 +40,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1817"
-     inkscape:window-height="774"
+     inkscape:window-width="1649"
+     inkscape:window-height="753"
      id="namedview304"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:zoom="1.082238"
+     inkscape:zoom="1.0417985"
      inkscape:cx="445.3137"
-     inkscape:cy="259.64715"
+     inkscape:cy="259.64714"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
@@ -56,7 +56,8 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0">
+     fit-margin-bottom="0"
+     inkscape:document-rotation="0">
     <sodipodi:guide
        position="70.22842,168.47038"
        orientation="1,0"
@@ -66,7 +67,7 @@
        orientation="1,0"
        id="guide1503" />
     <sodipodi:guide
-       position="375.7284,205.61038"
+       position="377.77622,83.153786"
        orientation="1,0"
        id="guide1565" />
   </sodipodi:namedview>
@@ -143,7 +144,8 @@
        fill="none"
        stroke="#000000"
        points="582.5,-336 582.5,-98 463.5,-98 463.5,-336 "
-       id="polygon24" />
+       id="polygon24"
+       style="stroke:#999999;stroke-opacity:1" />
     <text
        text-anchor="start"
        x="500.5"
@@ -572,7 +574,7 @@
   <g
      id="node9"
      class="node"
-     transform="translate(-134.77159,399.94032)">
+     transform="translate(-132.27159,399.94032)">
     <title
        id="title155">t1x</title>
     <path
@@ -610,7 +612,7 @@
   <g
      id="node12"
      class="node"
-     transform="translate(-146.77159,378.94032)">
+     transform="translate(-144.27159,378.94032)">
     <title
        id="title169">rtx</title>
     <path
@@ -649,20 +651,19 @@
     <path
        fill="none"
        stroke="#000000"
-       d="M 376.5,-104.69 V -64 h 98.78"
+       d="M 376.5,-104.69 V -64 h 100.28"
        id="path182"
        sodipodi:nodetypes="ccc" />
     <polygon
        fill="#000000"
        stroke="#000000"
-       points="476.78,-60.5 476.78,-67.5 486.78,-64 "
-       id="polygon184"
-       transform="translate(-1.5)" />
+       points="476.78,-67.5 486.78,-64 476.78,-60.5 "
+       id="polygon184" />
   </g>
   <g
      id="node10"
      class="node"
-     transform="translate(-139.27159,399.94032)">
+     transform="translate(-136.77159,399.94032)">
     <title
        id="title187">t2x</title>
     <path
@@ -681,7 +682,7 @@
   <g
      id="edge1"
      class="edge"
-     transform="translate(-145.27159,399.94032)">
+     transform="translate(-142.77159,399.94032)">
     <title
        id="title194">t1x-&gt;t2x</title>
     <path
@@ -692,13 +693,13 @@
     <polygon
        fill="#000000"
        stroke="#000000"
-       points="521,-216.08 517.5,-226.08 524.5,-226.08 "
+       points="517.5,-226.08 524.5,-226.08 521,-216.08 "
        id="polygon198" />
   </g>
   <g
      id="edge19"
      class="edge"
-     transform="translate(-145.27159,399.94032)">
+     transform="translate(-140.77159,399.94032)">
     <title
        id="title201">t2x-&gt;t2x</title>
     <path
@@ -717,7 +718,7 @@
   <g
      id="node11"
      class="node"
-     transform="translate(-146.77159,399.94032)">
+     transform="translate(-144.27159,399.94032)">
     <title
        id="title208">t3x</title>
     <path
@@ -736,7 +737,7 @@
   <g
      id="edge2"
      class="edge"
-     transform="translate(-143.77159,399.94032)">
+     transform="translate(-141.27159,399.94032)">
     <title
        id="title215">t2x-&gt;t3x</title>
     <path
@@ -747,7 +748,7 @@
     <polygon
        fill="#000000"
        stroke="#000000"
-       points="515.5,-152.08 522.5,-152.08 519,-142.08 "
+       points="522.5,-152.08 519,-142.08 515.5,-152.08 "
        id="polygon219" />
   </g>
   <g
@@ -776,7 +777,7 @@
     <path
        fill="none"
        stroke="#000000"
-       d="m 560.52,351 h 48.23 v -59.49999"
+       d="M 563.10211,351 H 608.75 v -59.49999"
        id="path238"
        sodipodi:nodetypes="ccc" />
     <polygon
@@ -959,7 +960,7 @@
   <path
      fill="none"
      stroke="#000000"
-     d="m 412.74841,275.94032 h 103.73 V 69.440321 h 28.22"
+     d="M 414.89777,275.94032 H 516.47841 V 69.440321 h 28.22"
      id="path238-4"
      sodipodi:nodetypes="cccc" />
 </svg>
