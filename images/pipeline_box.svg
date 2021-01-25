@@ -25,7 +25,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -40,7 +40,7 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1649"
+     inkscape:window-width="1664"
      inkscape:window-height="753"
      id="namedview304"
      showgrid="false"
@@ -49,8 +49,8 @@
      inkscape:zoom="1.0417985"
      inkscape:cx="445.3137"
      inkscape:cy="259.64714"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-x="73"
+     inkscape:window-y="54"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg302"
      fit-margin-top="0"
@@ -945,18 +945,22 @@
      id="path1505"
      cx="292.48361"
      cy="334.47293"
-     r="12.112426" />
+     r="12.112426"
+     inkscape:export-xdpi="200.04605"
+     inkscape:export-ydpi="200.04605" />
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0.25;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-     x="282.56662"
-     y="338.84109"
-     id="text1529"><tspan
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:0.25;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+     x="282.57861"
+     y="339.10693"
+     id="text1529"
+     inkscape:export-xdpi="200.04605"
+     inkscape:export-ydpi="200.04605"><tspan
        sodipodi:role="line"
        id="tspan1527"
-       x="282.56662"
-       y="338.84109"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:serif;-inkscape-font-specification:serif;stroke-width:0.75">OR</tspan></text>
+       x="282.57861"
+       y="339.10693"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Times, serif;-inkscape-font-specification:'Times, serif';stroke-width:0.75">OR</tspan></text>
   <path
      fill="none"
      stroke="#000000"
