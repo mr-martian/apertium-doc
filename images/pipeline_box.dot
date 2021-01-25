@@ -1,0 +1,63 @@
+digraph {
+  rankdir = TB;
+  node [shape=box style="rounded"];
+  compound = true;
+  splines = ortho;
+  concentrate = true;
+  nodesep=1;
+
+  sltext [label=<Source Language<BR/>Text> shape=none];
+  subgraph cluster_SL {
+    label = <Source Language<BR/>Analysis>;
+    deformat [label=<Deformatter>];
+    morph [label=<Morphological<BR/>Analyser>];
+    disam [label=<Morphological<BR/>Disambiguation>];
+    sep1 [label=<Retokenisation> style="dashed,rounded"];
+  }
+  subgraph cluster_transfer {
+    label = <Transfer>;
+    biltrans [label=<Lexical<BR/>Transfer>];
+    lexsel [label=<Lexical<BR/>Selection>];
+    anaphora [label=<Anaphora<BR/>Resolution> style="dashed,rounded"];
+    subgraph cluster_trx {
+      label = <Shallow<BR/>Structural Transfer>;
+      t1x [label=<Chunker>];
+      t2x [label=<Interchunk>];
+      t3x [label=<Postchunk>];
+      t1x -> t2x -> t3x;
+    };
+    rtx [label=<Recursive<BR/>Structural<BR/>Transfer>];
+  }
+  subgraph cluster_TL {
+    label = <Target Language<BR/>Generation>;
+    sep2 [label=<Retokenisation> style="dashed,rounded"];
+    gener [label=<Morphological<BR/>Generator>];
+    postgen [label=<Post-Generator> style="dashed,rounded"];
+    reformat [label=<Reformatter>];
+  }
+  tltext [label=<Target Language<BR/>Text> shape=none];
+
+  sltext -> deformat [constraint=false];
+  deformat -> morph;
+  morph -> disam -> sep1;
+  sep1 -> biltrans [constraint=false, headport=w];
+  biltrans -> lexsel -> anaphora;
+  anaphora -> rtx [constraint=false];
+  sep2 -> gener -> postgen;
+  postgen -> reformat;
+  reformat -> tltext [constraint=false];
+  anaphora -> t1x [/*lhead=cluster_trx,*/ constraint=false];
+  rtx -> sep2 [constraint=false];
+  //t1x -> sep2 [ltail=cluster_trx, constraint=false];
+  t3x -> sep2 [constraint=false];
+  t3x -> rtx [style=invis];
+  t2x -> t2x [dir=back, style=dashed];
+  
+  align [shape=none, style=invis];
+  align -> {sltext, deformat, biltrans, t1x, sep2, tltext} [style=invis];
+
+  /*join [shape=point, style=invis, height=0, width=0];
+  {rtx,t3x} -> join [constraint=false, dir=none];
+  join -> sep2 [constraint=false];
+  t2x -> join [style=invis];*/
+}
