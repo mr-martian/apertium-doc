@@ -58,7 +58,7 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:document-rotation="0"
-     inkscape:snap-global="true">
+     inkscape:snap-global="false">
     <sodipodi:guide
        position="245.86343,168.47038"
        orientation="1,0"
@@ -116,7 +116,7 @@
        orientation="0,-1"
        id="guide1157" />
     <sodipodi:guide
-       position="740.33791,118.55641"
+       position="526.25954,119.39259"
        orientation="0,-1"
        id="guide1159" />
   </sodipodi:namedview>
@@ -137,7 +137,7 @@
     <path
        fill="none"
        stroke="#000000"
-       d="m 151.24188,-272 h 16.91727"
+       d="m 150.23332,-272 17.92583,0"
        id="path56-0"
        sodipodi:nodetypes="cc" />
     <polygon
@@ -732,21 +732,17 @@
        transform="translate(0,-0.90998788)" />
   </g>
   <g
-     id="node15"
-     class="node"
-     transform="translate(12.363423,380.19005)">
-    <title
-       id="title259">postgen</title>
+     id="g1201">
     <path
        fill="none"
        stroke="#000000"
        stroke-dasharray="5, 2"
-       d="m 802.5,-144.01999 c 0,0 -74,0 -74,0 -6,0 -12,6 -12,12 0,0 0,12 0,12 0,6 6,12 12,12 0,0 74,0 74,0 6,0 12,-6 12,-12 0,0 0,-12 0,-12 0,-6 -6,-12 -12,-12"
+       d="m 814.86342,236.17006 c 0,0 -74,0 -74,0 -6,0 -12,6 -12,12 0,0 0,12 0,12 0,6 6,12 12,12 0,0 74,0 74,0 6,0 12,-6 12,-12 0,0 0,-12 0,-12 0,-6 -6,-12 -12,-12"
        id="path261" />
     <text
        text-anchor="start"
-       x="724.5"
-       y="-120.3"
+       x="736.8634"
+       y="259.1387"
        font-family="Times, serif"
        font-size="14px"
        id="text263">Post-Generator</text>
@@ -772,7 +768,7 @@
   <g
      id="node16"
      class="node"
-     transform="translate(180.99581,298.73136)">
+     transform="translate(180.99581,298.05854)">
     <title
        id="title273">reformat</title>
     <text
@@ -807,7 +803,7 @@
   <path
      id="polygon33-1"
      style="fill:none;stroke:#999999;stroke-opacity:1"
-     d="m 889.49581,274.15623 0.28012,-35.42487 h 113.99997 l -0.2801,35.42487 z"
+     d="m 889.49581,273.48341 0.28012,-35.42487 h 113.99997 l -0.2801,35.42487 z"
      sodipodi:nodetypes="ccccc" />
   <circle
      style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.99975;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
