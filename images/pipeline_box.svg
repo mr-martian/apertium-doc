@@ -46,9 +46,9 @@
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:zoom="0.55098265"
-     inkscape:cx="662.37398"
-     inkscape:cy="506.95759"
+     inkscape:zoom="0.80599673"
+     inkscape:cx="674.32036"
+     inkscape:cy="245.96699"
      inkscape:window-x="52"
      inkscape:window-y="31"
      inkscape:window-maximized="0"
@@ -845,7 +845,7 @@
     <path
        fill="none"
        stroke="#000000"
-       d="M 263.58998,-272 H 333.5"
+       d="M 276.93451,-272 H 333.5"
        id="path118-6"
        sodipodi:nodetypes="cc" />
     <polygon
