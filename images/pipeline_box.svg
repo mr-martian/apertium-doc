@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="667.97052pt"
-   height="389.4707pt"
-   viewBox="0 0 667.97052 389.4707"
+   width="1046.2559pt"
+   height="368.9505pt"
+   viewBox="0 0 1046.2559 368.9505"
    version="1.1"
    id="svg302"
    sodipodi:docname="pipeline_box.svg"
@@ -40,15 +40,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1672"
+     inkscape:window-width="1683"
      inkscape:window-height="753"
      id="namedview304"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:zoom="1.0417985"
-     inkscape:cx="445.3137"
-     inkscape:cy="263.59958"
+     inkscape:zoom="3.8038558"
+     inkscape:cx="1216.7377"
+     inkscape:cy="283.35533"
      inkscape:window-x="43"
      inkscape:window-y="92"
      inkscape:window-maximized="0"
@@ -57,63 +57,101 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:document-rotation="0">
+     inkscape:document-rotation="0"
+     inkscape:snap-global="true">
     <sodipodi:guide
-       position="70.22842,168.47038"
+       position="259.54591,168.47042"
        orientation="1,0"
        id="guide1310" />
     <sodipodi:guide
-       position="231.16991,105.76782"
+       position="420.4874,105.76785"
        orientation="1,0"
        id="guide1503" />
     <sodipodi:guide
-       position="377.77622,83.153786"
+       position="567.09371,83.153825"
        orientation="1,0"
        id="guide1565" />
+    <sodipodi:guide
+       position="481.4645,261.53042"
+       orientation="0,-1"
+       id="guide1005" />
+    <sodipodi:guide
+       position="648.7959,113.03041"
+       orientation="0,-1"
+       id="guide1009" />
+    <sodipodi:guide
+       position="420.04589,206.78044"
+       orientation="0,-1"
+       id="guide1015" />
+    <sodipodi:guide
+       position="420.54589,132.78044"
+       orientation="0,-1"
+       id="guide1017" />
+    <sodipodi:guide
+       position="373.5459,356.53045"
+       orientation="0,-1"
+       id="guide1019" />
+    <sodipodi:guide
+       position="384.41279,348.43596"
+       orientation="0,-1"
+       id="guide1021" />
+    <sodipodi:guide
+       position="220.67436,274.76043"
+       orientation="0,-1"
+       id="guide1073" />
+    <sodipodi:guide
+       position="259.54591,242.47045"
+       orientation="0,-1"
+       id="guide1083" />
+    <sodipodi:guide
+       position="734.5459,84.760459"
+       orientation="0,-1"
+       id="guide1135" />
   </sodipodi:namedview>
   <polygon
      fill="#ffffff"
      stroke="transparent"
-     points="-4,-415 1000,-415 1000,4 -4,4 "
+     points="-4,4 -4,-415 1000,-415 1000,4 "
      id="polygon4"
-     transform="matrix(0.66530931,0,0,0.92952439,2.6612372,385.75262)"
+     transform="matrix(1.0420875,0,0,0.88055007,4.16835,365.42828)"
      inkscape:export-xdpi="200.04605"
      inkscape:export-ydpi="200.04605" />
   <g
      id="edge3-4"
      class="edge"
-     transform="rotate(90,80.134053,250.09437)">
+     transform="rotate(90,364.25411,341.92417)">
     <title
        id="title54-3">sltext-&gt;deformat</title>
     <path
        fill="none"
        stroke="#000000"
-       d="m 148.81,-272 h 24.13"
+       d="m 148.81,-272 100.79207,0"
        id="path56-0"
        sodipodi:nodetypes="cc" />
     <polygon
        fill="#000000"
        stroke="#000000"
        points="172.94,-268.5 172.94,-275.5 182.94,-272 "
-       id="polygon58-3" />
+       id="polygon58-3"
+       transform="translate(75.560011)" />
   </g>
   <path
      id="polygon8"
      style="fill:none;stroke:#999999;stroke-opacity:1"
-     d="m 129.22841,129.94031 v 253.5 h -120 v -253.5 z"
+     d="m 318.5459,12.420066 0,271.769984 h -120 l 0,-271.769984 z"
      sodipodi:nodetypes="ccccc" />
   <text
      text-anchor="start"
-     x="17.610582"
-     y="362.64032"
+     x="206.92807"
+     y="29.339592"
      font-family="Times, serif"
      font-size="14px"
      id="text10"
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Times, serif;-inkscape-font-specification:'Times, serif Bold'">Source Language</text>
   <text
      text-anchor="start"
-     x="41.110584"
-     y="377.64032"
+     x="230.42807"
+     y="44.339584"
      font-family="Times, serif"
      font-size="14px"
      id="text12"
@@ -121,12 +159,12 @@
   <path
      id="polygon17"
      style="fill:none;stroke:#999999;stroke-width:0.99975;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="M 487.72841,32.940314 V 372.44031 h -303.5 V 32.940314 Z"
+     d="M 677.04589,12.420075 V 351.92007 h -303.5 V 12.420075 Z"
      sodipodi:nodetypes="ccccc" />
   <text
      text-anchor="start"
-     x="310.08551"
-     y="48.140327"
+     x="499.40298"
+     y="29.807583"
      font-family="Times, serif"
      font-size="14px"
      id="text19"
@@ -134,7 +172,7 @@
   <g
      id="clust3"
      class="cluster"
-     transform="translate(-145.27159,399.94032)">
+     transform="translate(44.04589,379.42008)">
     <title
        id="title22">cluster_trx</title>
     <polygon
@@ -159,91 +197,32 @@
        id="text28">Structural Transfer</text>
   </g>
   <g
-     id="node1"
-     class="node"
-     transform="translate(14.22946,291.3469)">
-    <title
-       id="title40">sltext</title>
-    <text
-       text-anchor="start"
-       x="8"
-       y="-275.79999"
-       font-family="Times, serif"
-       font-size="14px"
-       id="text42">Source Language</text>
-    <text
-       text-anchor="start"
-       x="43"
-       y="-260.79999"
-       font-family="Times, serif"
-       font-size="14px"
-       id="text44">Text</text>
-  </g>
-  <g
-     id="edge3"
-     class="edge"
-     transform="rotate(90,-45.478555,-156.29303)">
-    <title
-       id="title54">sltext-&gt;deformat</title>
+     id="g1081"
+     transform="translate(189.31748,-20.520241)">
     <path
        fill="none"
        stroke="#000000"
-       d="m 148.81,-272 h 24.13"
-       id="path56"
-       sodipodi:nodetypes="cc" />
-    <polygon
-       fill="#000000"
-       stroke="#000000"
-       points="172.94,-275.5 182.94,-272 172.94,-268.5 "
-       id="polygon58" />
-  </g>
-  <g
-     id="node3"
-     class="node"
-     transform="translate(-145.27159,363.94031)">
-    <title
-       id="title61">morph</title>
-    <path
-       fill="none"
-       stroke="#000000"
-       d="m 252.5,-217 c 0,0 -74,0 -74,0 -6,0 -12,6 -12,12 0,0 0,14 0,14 0,6 6,12 12,12 0,0 74,0 74,0 6,0 12,-6 12,-12 0,0 0,-14 0,-14 0,-6 -6,-12 -12,-12"
+       d="m 107.22842,108.9403 c 0,0 -74,0 -74,0 -6,0 -12,6 -12,12 0,0 0,14 0,14 0,6 6,12 12,12 0,0 74,0 74,0 6,0 12,-6 12,-12 0,0 0,-14 0,-14 0,-6 -6,-12 -12,-12"
        id="path63" />
     <text
        text-anchor="start"
-       x="174.5"
-       y="-201.8"
+       x="29.22842"
+       y="124.1403"
        font-family="Times, serif"
        font-size="14px"
        id="text65">Morphological</text>
     <text
        text-anchor="start"
-       x="191"
-       y="-186.8"
+       x="45.72842"
+       y="139.1403"
        font-family="Times, serif"
        font-size="14px"
        id="text67">Analyser</text>
   </g>
   <g
-     id="edge4"
-     class="edge"
-     transform="translate(-153.52158,363.94031)">
-    <title
-       id="title70">deformat-&gt;morph</title>
-    <path
-       fill="none"
-       stroke="#000000"
-       d="m 223.75,-253.71 c 0,0 0,26.6 0,26.6"
-       id="path72" />
-    <polygon
-       fill="#000000"
-       stroke="#000000"
-       points="220.25,-227.11 227.25,-227.11 223.75,-217.11 "
-       id="polygon74" />
-  </g>
-  <g
      id="node4"
      class="node"
-     transform="translate(-145.27159,363.94031)">
+     transform="translate(44.0459,305.42006)">
     <title
        id="title77">disam</title>
     <path
@@ -269,7 +248,7 @@
   <g
      id="edge5"
      class="edge"
-     transform="translate(-145.27159,363.94031)">
+     transform="translate(44.0459,305.42006)">
     <title
        id="title86">morph-&gt;disam</title>
     <path
@@ -280,13 +259,13 @@
     <polygon
        fill="#000000"
        stroke="#000000"
-       points="219,-153.25 215.5,-143.25 212,-153.25 "
+       points="215.5,-143.25 212,-153.25 219,-153.25 "
        id="polygon90" />
   </g>
   <g
      id="node5"
      class="node"
-     transform="translate(-145.27159,363.94031)">
+     transform="translate(44.0459,296.67006)">
     <title
        id="title93">sep1</title>
     <path
@@ -306,7 +285,7 @@
   <g
      id="edge6"
      class="edge"
-     transform="translate(-145.27159,363.94031)">
+     transform="translate(45.0459,305.73006)">
     <title
        id="title100">disam-&gt;sep1</title>
     <path
@@ -317,13 +296,14 @@
     <polygon
        fill="#000000"
        stroke="#000000"
-       points="218,-70.56 214.5,-60.56 211,-70.56 "
-       id="polygon104" />
+       points="211,-70.56 218,-70.56 214.5,-60.56 "
+       id="polygon104"
+       transform="translate(0,-9)" />
   </g>
   <g
      id="node6"
      class="node"
-     transform="translate(-140.77159,399.94031)">
+     transform="translate(48.54589,379.42007)">
     <title
        id="title107">biltrans</title>
     <path
@@ -349,26 +329,26 @@
   <g
      id="edge7"
      class="edge"
-     transform="translate(-145.27159,399.94032)">
+     transform="translate(44.04589,379.42008)">
     <title
        id="title116">sep1-&gt;biltrans:w</title>
     <path
        fill="none"
        stroke="#000000"
-       d="m 263.51,-78 h 38.74 v -194 h 31.25"
+       d="m 263.51,-124.5 h 38.74 V -272 h 31.25"
        id="path118"
        sodipodi:nodetypes="cccc" />
     <polygon
        fill="#000000"
        stroke="#000000"
-       points="330.5,-275.5 340.5,-272 330.5,-268.5 "
+       points="340.5,-272 330.5,-268.5 330.5,-275.5 "
        id="polygon120"
        transform="translate(3)" />
   </g>
   <g
      id="node7"
      class="node"
-     transform="translate(-140.77159,399.94031)">
+     transform="translate(48.54589,379.42007)">
     <title
        id="title123">lexsel</title>
     <path
@@ -394,7 +374,7 @@
   <g
      id="edge8"
      class="edge"
-     transform="translate(-140.77159,399.94031)">
+     transform="translate(48.54589,379.42007)">
     <title
        id="title132">biltrans-&gt;lexsel</title>
     <path
@@ -405,13 +385,13 @@
     <polygon
        fill="#000000"
        stroke="#000000"
-       points="371.5,-217.25 368,-227.25 375,-227.25 "
+       points="368,-227.25 375,-227.25 371.5,-217.25 "
        id="polygon136" />
   </g>
   <g
      id="node8"
      class="node"
-     transform="translate(-145.27159,399.94032)">
+     transform="translate(44.04589,379.42008)">
     <title
        id="title139">anaphora</title>
     <path
@@ -438,7 +418,7 @@
   <g
      id="edge9"
      class="edge"
-     transform="translate(-140.77159,399.94031)">
+     transform="translate(48.54589,379.42007)">
     <title
        id="title148">lexsel-&gt;anaphora</title>
     <path
@@ -449,13 +429,13 @@
     <polygon
        fill="#000000"
        stroke="#000000"
-       points="372,-143.25 368.5,-153.25 375.5,-153.25 "
+       points="368.5,-153.25 375.5,-153.25 372,-143.25 "
        id="polygon152" />
   </g>
   <g
      id="node9"
      class="node"
-     transform="translate(-132.27159,399.94032)">
+     transform="translate(57.04589,379.42008)">
     <title
        id="title155">t1x</title>
     <path
@@ -474,7 +454,7 @@
   <g
      id="edge15"
      class="edge"
-     transform="translate(-145.27159,399.94032)">
+     transform="translate(44.04589,379.42008)">
     <title
        id="title162">anaphora-&gt;t1x</title>
     <path
@@ -486,14 +466,14 @@
     <polygon
        fill="#000000"
        stroke="#000000"
-       points="478.82,-263 468.82,-259.5 468.82,-266.5 "
+       points="468.82,-259.5 468.82,-266.5 478.82,-263 "
        id="polygon166"
        transform="translate(10.5,-9)" />
   </g>
   <g
      id="node12"
      class="node"
-     transform="translate(-144.27159,378.94032)">
+     transform="translate(45.04589,358.42008)">
     <title
        id="title169">rtx</title>
     <path
@@ -526,7 +506,7 @@
   <g
      id="edge10"
      class="edge"
-     transform="translate(-145.27159,399.94032)">
+     transform="translate(44.04589,379.42008)">
     <title
        id="title180">anaphora-&gt;rtx</title>
     <path
@@ -538,13 +518,13 @@
     <polygon
        fill="#000000"
        stroke="#000000"
-       points="476.78,-67.5 486.78,-64 476.78,-60.5 "
+       points="486.78,-64 476.78,-60.5 476.78,-67.5 "
        id="polygon184" />
   </g>
   <g
      id="node10"
      class="node"
-     transform="translate(-136.77159,399.94032)">
+     transform="translate(52.54589,379.42008)">
     <title
        id="title187">t2x</title>
     <path
@@ -563,7 +543,7 @@
   <g
      id="edge1"
      class="edge"
-     transform="translate(-142.77159,399.94032)">
+     transform="translate(46.54589,379.42008)">
     <title
        id="title194">t1x-&gt;t2x</title>
     <path
@@ -574,13 +554,13 @@
     <polygon
        fill="#000000"
        stroke="#000000"
-       points="517.5,-226.08 524.5,-226.08 521,-216.08 "
+       points="524.5,-226.08 521,-216.08 517.5,-226.08 "
        id="polygon198" />
   </g>
   <g
      id="edge19"
      class="edge"
-     transform="translate(-140.77159,399.94032)">
+     transform="translate(48.54589,379.42008)">
     <title
        id="title201">t2x-&gt;t2x</title>
     <path
@@ -593,13 +573,13 @@
     <polygon
        fill="#000000"
        stroke="#000000"
-       points="496.5,-226.07 503.5,-226.07 500,-216.07 "
+       points="503.5,-226.07 500,-216.07 496.5,-226.07 "
        id="polygon205" />
   </g>
   <g
      id="node11"
      class="node"
-     transform="translate(-144.27159,399.94032)">
+     transform="translate(45.04589,379.42008)">
     <title
        id="title208">t3x</title>
     <path
@@ -618,7 +598,7 @@
   <g
      id="edge2"
      class="edge"
-     transform="translate(-141.27159,399.94032)">
+     transform="translate(48.04589,379.42008)">
     <title
        id="title215">t2x-&gt;t3x</title>
     <path
@@ -629,20 +609,21 @@
     <polygon
        fill="#000000"
        stroke="#000000"
-       points="522.5,-152.08 519,-142.08 515.5,-152.08 "
+       points="519,-142.08 515.5,-152.08 522.5,-152.08 "
        id="polygon219" />
   </g>
   <g
-     id="g1113">
+     id="g1113"
+     transform="translate(189.31748,37.249741)">
     <path
        id="polygon33"
        style="fill:none;stroke:#999999;stroke-opacity:1"
-       d="m 659.22841,6.94031 v 240 h -114 v -240 z"
+       d="m 659.22841,-24.82968 v 271.76999 h -114 V -24.82968 Z"
        sodipodi:nodetypes="ccccc" />
     <text
        text-anchor="start"
        x="602.13739"
-       y="22.736723"
+       y="-7.1273265"
        font-family="Times, serif"
        font-size="14px"
        id="text19-3"
@@ -650,18 +631,18 @@
          sodipodi:role="line"
          id="tspan1077"
          x="602.13739"
-         y="22.736723"
+         y="-7.1273265"
          style="text-align:center;text-anchor:middle">Target Language</tspan><tspan
          sodipodi:role="line"
          id="tspan1079"
          x="602.13739"
-         y="38.136723"
+         y="8.2726736"
          style="text-align:center;text-anchor:middle">Generation</tspan></text>
   </g>
   <g
      id="node13"
      class="node"
-     transform="translate(-163.27159,342.94031)">
+     transform="translate(26.04589,380.19005)">
     <title
        id="title222">sep2</title>
     <path
@@ -680,7 +661,7 @@
   </g>
   <g
      id="g1324"
-     transform="translate(-149.27159,-15.059676)">
+     transform="translate(40.04589,-35.579915)">
     <path
        fill="none"
        stroke="#000000"
@@ -690,14 +671,14 @@
     <polygon
        fill="#000000"
        stroke="#000000"
-       points="706.47,-281.5 716.47,-278 706.47,-274.5 "
+       points="706.47,-274.5 706.47,-281.5 716.47,-278 "
        id="polygon240"
-       transform="translate(-14,362.5)" />
+       transform="translate(-14,421)" />
   </g>
   <g
      id="node14"
      class="node"
-     transform="translate(-163.27159,342.94031)">
+     transform="translate(26.04589,379.17006)">
     <title
        id="title243">gener</title>
     <path
@@ -723,7 +704,7 @@
   <g
      id="edge11"
      class="edge"
-     transform="translate(-163.27159,342.94031)">
+     transform="translate(26.04589,380.19005)">
     <title
        id="title252">sep2-&gt;gener</title>
     <path
@@ -735,19 +716,20 @@
        fill="#000000"
        stroke="#000000"
        points="765.5,-217.11 762,-227.11 769,-227.11 "
-       id="polygon256" />
+       id="polygon256"
+       transform="translate(0,-0.90998788)" />
   </g>
   <g
      id="node15"
      class="node"
-     transform="translate(-163.27159,342.94031)">
+     transform="translate(26.04589,380.19005)">
     <title
        id="title259">postgen</title>
     <path
        fill="none"
        stroke="#000000"
        stroke-dasharray="5, 2"
-       d="m 802.5,-142 c 0,0 -74,0 -74,0 -6,0 -12,6 -12,12 0,0 0,12 0,12 0,6 6,12 12,12 0,0 74,0 74,0 6,0 12,-6 12,-12 0,0 0,-12 0,-12 0,-6 -6,-12 -12,-12"
+       d="m 802.5,-144.01999 c 0,0 -74,0 -74,0 -6,0 -12,6 -12,12 0,0 0,12 0,12 0,6 6,12 12,12 0,0 74,0 74,0 6,0 12,-6 12,-12 0,0 0,-12 0,-12 0,-6 -6,-12 -12,-12"
        id="path261" />
     <text
        text-anchor="start"
@@ -760,24 +742,25 @@
   <g
      id="edge12"
      class="edge"
-     transform="translate(-163.27159,342.94031)">
+     transform="translate(26.04589,378.40006)">
     <title
        id="title266">gener-&gt;postgen</title>
     <path
        fill="none"
        stroke="#000000"
-       d="m 765.5,-178.94 c 0,0 0,26.71 0,26.71"
-       id="path268" />
+       d="M 765.5,-178.43365 V -152.23"
+       id="path268"
+       sodipodi:nodetypes="cc" />
     <polygon
        fill="#000000"
        stroke="#000000"
-       points="765.5,-142.23 762,-152.23 769,-152.23 "
+       points="762,-152.23 769,-152.23 765.5,-142.23 "
        id="polygon270" />
   </g>
   <g
      id="node16"
      class="node"
-     transform="translate(-163.27159,342.94031)">
+     transform="translate(212.67828,150.65004)">
     <title
        id="title273">reformat</title>
     <text
@@ -791,7 +774,7 @@
   <g
      id="node17"
      class="node"
-     transform="translate(-338.97669,641.04618)">
+     transform="translate(36.973177,528.68205)">
     <title
        id="title287">tltext</title>
     <text
@@ -809,9 +792,100 @@
        font-size="14px"
        id="text291">Text</text>
   </g>
+  <path
+     id="polygon33-1"
+     style="fill:none;stroke:#999999;stroke-opacity:1"
+     d="m 921.17828,126.07491 0.28012,-35.424871 h 114 l -0.2801,35.424871 z"
+     sodipodi:nodetypes="ccccc" />
+  <circle
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.99975;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path1505"
+     cx="481.80109"
+     cy="313.9527"
+     r="12.112426"
+     inkscape:export-xdpi="200.04605"
+     inkscape:export-ydpi="200.04605" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:0.25;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+     x="471.89609"
+     y="318.5867"
+     id="text1529"
+     inkscape:export-xdpi="200.04605"
+     inkscape:export-ydpi="200.04605"><tspan
+       sodipodi:role="line"
+       id="tspan1527"
+       x="471.89609"
+       y="318.5867"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Times, serif;-inkscape-font-specification:'Times, serif';stroke-width:0.75">OR</tspan></text>
+  <path
+     fill="none"
+     stroke="#000000"
+     d="m 604.21525,255.42008 h 101.58064 v -148 h 28.22"
+     id="path238-4"
+     sodipodi:nodetypes="cccc" />
+  <g
+     id="edge7-3"
+     class="edge"
+     transform="translate(-134.45411,379.42008)">
+    <title
+       id="title116-5">sep1-&gt;biltrans:w</title>
+    <path
+       fill="none"
+       stroke="#000000"
+       d="m 263.51,-124.5 h 38.74 V -272 h 31.25"
+       id="path118-6"
+       sodipodi:nodetypes="cccc" />
+    <polygon
+       fill="#000000"
+       stroke="#000000"
+       points="330.5,-275.5 340.5,-272 330.5,-268.5 "
+       id="polygon120-2"
+       transform="translate(3)" />
+  </g>
+  <g
+     id="node1"
+     class="node"
+     transform="translate(12.61504,379.60795)">
+    <title
+       id="title40">sltext</title>
+    <text
+       text-anchor="start"
+       x="8"
+       y="-275.79999"
+       font-family="Times, serif"
+       font-size="14px"
+       id="text42">Source Language</text>
+    <text
+       text-anchor="start"
+       x="43"
+       y="-260.79999"
+       font-family="Times, serif"
+       font-size="14px"
+       id="text44">Text</text>
+  </g>
+  <g
+     id="edge3"
+     class="edge"
+     transform="rotate(90,-127.65061,-74.420549)">
+    <title
+       id="title54">sltext-&gt;deformat</title>
+    <path
+       fill="none"
+       stroke="#000000"
+       d="M 73.249995,-272 H 174.44"
+       id="path56"
+       sodipodi:nodetypes="cc" />
+    <polygon
+       fill="#000000"
+       stroke="#000000"
+       points="182.94,-272 172.94,-268.5 172.94,-275.5 "
+       id="polygon58"
+       transform="translate(0.66209516)" />
+  </g>
   <g
      id="g1445"
-     transform="translate(-8.7852071,-2.8141362)">
+     transform="translate(-9.0847997,161.2304)">
     <text
        text-anchor="start"
        x="46.26363"
@@ -825,53 +899,23 @@
        d="m 138.01362,77.25445 v 36 h -120 v -36 z"
        sodipodi:nodetypes="ccccc" />
   </g>
-  <path
-     id="polygon33-1"
-     style="fill:none;stroke:#999999;stroke-opacity:1"
-     d="m 545.22841,318.36518 0.28012,-35.42487 h 114 l -0.28012,35.42487 z"
-     sodipodi:nodetypes="ccccc" />
-  <circle
-     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.99975;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     id="path1505"
-     cx="292.48361"
-     cy="334.47293"
-     r="12.112426"
-     inkscape:export-xdpi="200.04605"
-     inkscape:export-ydpi="200.04605" />
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:0.25;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-     x="282.57861"
-     y="339.10693"
-     id="text1529"
-     inkscape:export-xdpi="200.04605"
-     inkscape:export-ydpi="200.04605"><tspan
-       sodipodi:role="line"
-       id="tspan1527"
-       x="282.57861"
-       y="339.10693"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;font-family:Times, serif;-inkscape-font-specification:'Times, serif';stroke-width:0.75">OR</tspan></text>
-  <path
-     fill="none"
-     stroke="#000000"
-     d="M 414.89777,275.94032 H 516.47841 V 69.440321 h 28.22"
-     id="path238-4"
-     sodipodi:nodetypes="cccc" />
   <g
-     id="edge13"
+     id="edge7-8"
      class="edge"
-     transform="translate(-163.27159,342.94031)">
+     transform="translate(576.54545,379.42008)">
     <title
-       id="title280">postgen-&gt;reformat</title>
+       id="title116-7">sep1-&gt;biltrans:w</title>
     <path
        fill="none"
        stroke="#000000"
-       d="m 765.5,-105.91 c 0,0 0,35.37 0,35.37"
-       id="path282" />
+       d="m 263.51,-124.5 h 38.74 V -272 h 31.25"
+       id="path118-9"
+       sodipodi:nodetypes="cccc" />
     <polygon
        fill="#000000"
        stroke="#000000"
-       points="765.5,-60.54 762,-70.54 769,-70.54 "
-       id="polygon284" />
+       points="330.5,-268.5 330.5,-275.5 340.5,-272 "
+       id="polygon120-20"
+       transform="translate(3)" />
   </g>
 </svg>
