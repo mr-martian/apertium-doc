@@ -25,7 +25,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -633,6 +633,32 @@
        id="polygon219" />
   </g>
   <g
+     id="g1113">
+    <path
+       id="polygon33"
+       style="fill:none;stroke:#999999;stroke-opacity:1"
+       d="m 659.22841,6.94031 v 240 h -114 v -240 z"
+       sodipodi:nodetypes="ccccc" />
+    <text
+       text-anchor="start"
+       x="602.13739"
+       y="22.736723"
+       font-family="Times, serif"
+       font-size="14px"
+       id="text19-3"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.1;font-family:Times, serif;-inkscape-font-specification:'Times, serif Bold';stroke-width:0.99975;stroke-miterlimit:4;stroke-dasharray:none"><tspan
+         sodipodi:role="line"
+         id="tspan1077"
+         x="602.13739"
+         y="22.736723"
+         style="text-align:center;text-anchor:middle">Target Language</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1079"
+         x="602.13739"
+         y="38.136723"
+         style="text-align:center;text-anchor:middle">Generation</tspan></text>
+  </g>
+  <g
      id="node13"
      class="node"
      transform="translate(-163.27159,342.94031)">
@@ -763,23 +789,6 @@
        id="text277">Reformatter</text>
   </g>
   <g
-     id="edge13"
-     class="edge"
-     transform="translate(-163.27159,342.94031)">
-    <title
-       id="title280">postgen-&gt;reformat</title>
-    <path
-       fill="none"
-       stroke="#000000"
-       d="m 765.5,-105.91 c 0,0 0,35.37 0,35.37"
-       id="path282" />
-    <polygon
-       fill="#000000"
-       stroke="#000000"
-       points="765.5,-60.54 762,-70.54 769,-70.54 "
-       id="polygon284" />
-  </g>
-  <g
      id="node17"
      class="node"
      transform="translate(-338.97669,641.04618)">
@@ -849,29 +858,20 @@
      id="path238-4"
      sodipodi:nodetypes="cccc" />
   <g
-     id="g1113">
+     id="edge13"
+     class="edge"
+     transform="translate(-163.27159,342.94031)">
+    <title
+       id="title280">postgen-&gt;reformat</title>
     <path
-       id="polygon33"
-       style="fill:none;stroke:#999999;stroke-opacity:1"
-       d="m 659.22841,6.94031 v 240 h -114 v -240 z"
-       sodipodi:nodetypes="ccccc" />
-    <text
-       text-anchor="start"
-       x="602.13739"
-       y="22.736723"
-       font-family="Times, serif"
-       font-size="14px"
-       id="text19-3"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:1.1;font-family:Times, serif;-inkscape-font-specification:'Times, serif Bold';stroke-width:0.99975;stroke-miterlimit:4;stroke-dasharray:none"><tspan
-         sodipodi:role="line"
-         id="tspan1077"
-         x="602.13739"
-         y="22.736723"
-         style="text-align:center;text-anchor:middle">Target Language</tspan><tspan
-         sodipodi:role="line"
-         id="tspan1079"
-         x="602.13739"
-         y="38.136723"
-         style="text-align:center;text-anchor:middle">Generation</tspan></text>
+       fill="none"
+       stroke="#000000"
+       d="m 765.5,-105.91 c 0,0 0,35.37 0,35.37"
+       id="path282" />
+    <polygon
+       fill="#000000"
+       stroke="#000000"
+       points="765.5,-60.54 762,-70.54 769,-70.54 "
+       id="polygon284" />
   </g>
 </svg>
